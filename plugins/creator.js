@@ -25,7 +25,7 @@ ${htjava} *✉️ Nama RL* : Rehan
 ${htjava} *♂️ Gender* : Boys
 ${htjava} *🕋 Agama* : Islam
 ${htjava} *⏰ Tanggal lahir* : Private 🥶
-${htjava} *🎨 Umur* : PRIVATE
+${htjava} *🎨 Umur* : 17
 ${htjava} *🧮 Kelas* : PRIVATE
 ${htjava} *🧩 Hobby* : MODIFIKASI WHATSAPP
 ${htjava} *💬 Sifat* : ASIK DAH KALAU DAH KENAL
