@@ -1,20 +1,62 @@
-import db from '../lib/database.js' 
-  
- // TODO: 
- // const data = { 
- //   user: [{ 
- //     name: 'autolevelup', 
- //     isEnable: true 
- //   }], 
- //   chat: [{ 
- //     name: 'welcome', 
- //     isEnable: true, 
- //     rules: [{ 
- //     }] 
- //   }] 
- // } 
- let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isROwner }) => {
-  let imgr = flaaa.getRandom()
+ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isROwner }) => {
+	const sections = [
+   {
+	title: `${dmenub} List Options`,
+	rows: [
+	    {title: "✨ | Welcome", rowId: `${usedPrefix + command} welcome`},
+	    {title: "🚫 | Delete", rowId: `${usedPrefix + command} delete`},
+            {title: "🚫 | autodelvn", rowId: `${usedPrefix + command} autodelvn`},
+	    {title: "🌎 | Public", rowId: `${usedPrefix + command} public`},
+	{title: "🗣️ | Simi", rowId: `${usedPrefix + command} simi`},
+	{title: "🔞 | Nsfw", rowId: `${usedPrefix + command} nsfw`},
+	{title: "🌟 | PremNsfwChat", rowId: `${usedPrefix + command} premnsfwchat`},
+	{title: "🔗 | Antilink", rowId: `${usedPrefix + command} antilink`},
+	{title: "🚫 | Antidelete", rowId: `${usedPrefix + command} antidelete`},
+	{title: "📛 | Antitoxic", rowId: `${usedPrefix + command} antitoxic`},
+	{title: "🌟 | Antilinkwa", rowId: `${usedPrefix + command} antilinkwa`}, 
+	{title: "🌟 | AntilinkIg", rowId: `${usedPrefix + command} antilinkIg`}, 
+    {title: "🌟 | AntilinkYt", rowId: `${usedPrefix + command} antilinkyt`}, 
+    {title: "🌟 | AntilinkTik", rowId: `${usedPrefix + command} antilinktik`},
+    {title: "🌟 | AntiHTTP", rowId: `${usedPrefix + command} antihatetepe`}, 
+    {title: "🌟 | Antilinkbitly", rowId: `${usedPrefix + command} antilinkbitly`},  {title: "🌟 | Antilinktel", rowId: `${usedPrefix + command} antilinktel`},
+	{title: "🌟 | AntiSatir", rowId: `${usedPrefix + command} antisatir`},
+	{title: "🌟 | Antispam", rowId: `${usedPrefix + command} antispam`},
+	{title: "🌟 | AntiSticker", rowId: `${usedPrefix + command} antisticker`},
+	{title: "🌟 | Antivirtex", rowId: `${usedPrefix + command} antivirtex`},
+	{title: "🌟 | AutoPresence", rowId: `${usedPrefix + command} autopresence`},
+	{title: "🌟 | Autoreply", rowId: `${usedPrefix + command} autoreply`},
+	{title: "🌟 | Autosticker", rowId: `${usedPrefix + command} autosticker`},
+	{title: "🌟 | AutoUpmine", rowId: `${usedPrefix + command} autoupmine`},
+	{title: "🌟 | Autojoin", rowId: `${usedPrefix + command} autojoin`},
+	{title: "🌟 | Autoupnews", rowId: `${usedPrefix + command} autoupnews`},
+	{title: "🎵 | AutoVn", rowId: `${usedPrefix + command} autovn`},
+	{title: "⏏️ | Autolevelup", rowId: `${usedPrefix + command} autolevelup`},
+	{title: "🌟 | bcjoin", rowId: `${usedPrefix + command} bcjoin`},
+	{title: "🔎 | Detect", rowId: `${usedPrefix + command} detect`},
+	{title: "📑 | Document", rowId: `${usedPrefix + command} document`},
+	{title: "👤 | WhiteListMyContact", rowId: `${usedPrefix + command} whitelistmycontact`},
+	{title: "🌟 | Restrict", rowId: `${usedPrefix + command} restrict`},
+	{title: "😐 | Nyimak", rowId: `${usedPrefix + command} nyimak`},
+	{title: "🤬 | Antibadword", rowId: `${usedPrefix + command} antibadword`},
+	{title: "💬 | PcOnly", rowId: `${usedPrefix + command} pconly`},
+	{title: "🏢 | GcOnly", rowId: `${usedPrefix + command} gconly`},
+	{title: "📷 | SwOnly", rowId: `${usedPrefix + command} swonly`},
+	{title: "🌟 | freply", rowId: `${usedPrefix + command} freply`}, 
+	{title: "🚮 | clear", rowId: `${usedPrefix + command} clear`}, 
+	{title: "🌟 | Desc", rowId: `${usedPrefix + command} desc`},
+	{title: "📩 | Getmsg", rowId: `${usedPrefix + command} getmsg`}, 
+	]
+    },
+]
+
+const listMessage = {
+  text: ' ',
+  footer: botdate,
+  title: `*${htki} OPTIONS ${htka}*`,
+  buttonText: "Click Here!",
+  sections
+}
+
   let isEnable = /true|enable|(turn)?on|1/i.test(command)
   let chat = global.db.data.chats[m.chat]
   let user = global.db.data.users[m.sender]
@@ -64,6 +106,15 @@ import db from '../lib/database.js'
       }
       chat.delete = isEnable
       break
+    case 'antibadword':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn)
+          throw false
+        }
+      }
+      chat.antiBadword = isEnable
+     break
     case 'clear':
       isAll = true
       if (!isOwner) {
@@ -314,15 +365,15 @@ import db from '../lib/database.js'
        }
        chat.antiToxic = !isEnable
        break
-     case 'antibadword':
-      if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn)
-          throw false
-        }
-      }
-      chat.antiBadword = isEnable
-      break
+     case 'antitoxic':
+       if (m.isGroup) {
+         if (!(isAdmin || isOwner)) {
+           global.dfail('admin', m, conn)
+           throw false
+         }
+       }
+       chat.antiToxic = isEnable
+       break
        case 'antispam':
        if (m.isGroup) {
          if (!(isAdmin || isOwner)) {
@@ -414,81 +465,19 @@ import db from '../lib/database.js'
       }
       global.opts['swonly'] = isEnable
       break
-              default: 
-       if (!/[01]/.test(command)) return conn.sendButton(m.chat, `*〔 llı OPTIONS ıll 〕*`, `
-    
-    
-꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦
-   
-Antidelete
-Antilink
-AntilinkFb
-AntilinkIg
-Antilinktel
-AntilinkTik
-AntilinkWa
-Antilinkbitly
-AntilinkYt
-Antihatetepe
-AntiSatir
-AntiSpam
-AntiSticker
-Antiviewonce
-AntiBadword
-AntiVirtex
-AutoDelVn
-AutoJoin
-AutoLevelup
-AutoPresence
-AutoRead
-AutolReply
-AutoSticker
-AutoUpnime
-AutoUpNews
-AutoVn
-BcJoin
-Delete
-Detect
-Document
-GcOnly
-NSFW
-Nyimak
-PcOnly
-Public
-Restrict
-Simi
-SwOnly
-Welcome
-WhiteListMyContact
-freply
-clear
-getmsg
-desc
-  
-▶︎ ━━━━━━━•──────────── 
-      ⇆ㅤ◁ㅤ ❚❚ㅤ ▷ㅤ↻
+    default:
+      if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, listMessage)
+      throw false
+  }
+  conn.sendButton(m.chat, `*${htki} OPTIONS ${htka}*
+🗂️ *Type:* ${type} 
+📊 *Status:* Succes ✅
+🎚️ *Options:* ${isEnable ? 'Enable' : 'Disable'}
+📣 *For:* ${isAll ? 'This Bot' : isUser ? '' : 'This Chats'}
+`,wm, null, [[`${isEnable ? '✖️ Disable' : '✔️ Enable'}`, `${isEnable ? `.off ${type}` : `.on ${type}`}`], ['🎀 Menu', '.menu']],m)
+}
+handler.help = ['en', 'dis'].map(v => v + 'able <option>')
+handler.tags = ['group', 'owner']
+handler.command = /^((en|dis)able|(tru|fals)e|(turn)?o(n|ff)|[01])$/i
 
-📜 *TUTORIAL*
- 
-𝍤 ON: ${usedPrefix}on welcome ❫
-
-𝍤 OFF: ${usedPrefix}off welcome ❫
-
-📮Pastikan Huruf kecil semua!
- `.trim(), `./media/on-off.jpg`, [ 
- [`SEWA BOT`, `${usedPrefix}sewa`] 
- ], m, {asLocation:true}) 
-       throw false 
-   } 
-     conn.sendButton(m.chat, botdate, `*${htki} STATUS ${htka}* 
- 📔  *Type:*   ${type}  
- 🗞️   *Status:*   Succes ✅ 
- 💻️   *Options:*   ${isEnable ? 'ON' : 'OFF'} 
- 🗳️   ${isAll ? 'Bot Only' : isUser ? '' : 'Chat Only'} 
- `, `${imgr + 'Options'}`, [['MENU', '.menu'],['OKE', 'Ok']],m)
- } 
- handler.help = ['settings'] 
- handler.tags = ['Bot'] 
- handler.command = /^((en|dis)able|setting|settings|(tru|fals)e|(turn)?o(n|ff)|[01])$/i 
-  
- export default handler
+export default handler
