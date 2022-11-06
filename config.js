@@ -107,7 +107,7 @@ global.wm2 = 'kz'
 global.wm3 = 'kzbotz | By kz'
 global.botdate = `⻝ 𝗗𝗮𝘁𝗲: ${week} ${date}\n⻝ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `⻝ 𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = `NexBotz | ʙʏ ${global.nameown}`
+global.titlebot = `Kzbotz | ʙʏ ${global.nameown}`
 global.author = 'kz' 
 global.packname = 'kz'
 global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰'
@@ -130,7 +130,7 @@ global.nameowner = 'kz'
 global.umurowner = '17'
 global.asalowner = 'Jawa Barat, Bogor'
 global.nomorowner = 'wa.me/6288293499014'
-global.pacarowner = 'raphtalia,rem'
+global.pacarowner = 'raphtalia'
 
 /*============== TEXT ==============*/
 global.wait = '```𝙇𝙤𝙖𝙙𝙞𝙣𝙜...```'
