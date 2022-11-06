@@ -251,7 +251,6 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
     },{
 	title: `${htki} ▮𝗜𝗻𝗳𝗼 」 ${htka}`,
 	rows: [
-	    {title: `💬 ∫ » Event «`, rowId: ".event", description: "✧ Nyari diskon? hahaha >.</"},
 	    {title: `🎁 ∫ » Referal «`, rowId: ".ref", description: "✧ Bagikan code undangan biar dapat hadiah...."},
 	    {title: `📮 ∫ » Rules «`, rowId: ".rules", description: `✧ Peraturan menggunakan ${namebot}`},
 	  {title: `✨ ∫ » Rating «`, rowId: ".rate", description: '✧ Support BOT agar Semangat update'},
