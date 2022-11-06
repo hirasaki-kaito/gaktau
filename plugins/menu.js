@@ -215,7 +215,7 @@ ptt: true })
 handler.help = ['menu', 'help']
 handler.tags = ['info', 'main']
 
-handler.command = /^(menu|help)$/i
+handler.command = /^(tesm|nexep)$/i
 
 handler.limit = false
 handler.register = true
