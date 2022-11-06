@@ -5,11 +5,10 @@ let text = `*SYARAT & KETENTUAN*
 
 📮 S&K
 1. Jangan diperjual belikan Script ini
-2. Sebelum pakai jangan lupa Subscribe YT: OHLX GT
-4. Jangan salah gunakan script ini!
-5. Jangan lupa Subscribe Youtube
-6. Jangan di per jual belikan
-• Jika ada eror di sc hub wa.me/6283160327945
+2. Jangan salah gunakan script ini!
+3. Jangan lupa Subscribe Youtube
+4. Jangan di per jual belikan
+• Jika ada eror di sc hub https://wa.me/628812743180
 
 --------Thanks to ✨---------
 Allah SWT
@@ -21,7 +20,7 @@ Adiwajshing
 Nurutomo
 BochilGaming`
 const templateButtons = [
-    {index: 1, urlButton: {displayText: 'Script di sini', url: 'https://youtube.com/channel/UCI0e4GqmeLZhy8KE8c9JPsw'}},
+    {index: 1, urlButton: {displayText: 'Script di sini', url: 'https://wa.me/628812743180'}},
 ]
 let tm = {
 text: text,
