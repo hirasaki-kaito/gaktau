@@ -44,15 +44,15 @@ global.ppulsa2 = '088293499014'
 global.psaweria = '-'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6281372197701'
-global.nomorown = '6281372197701 '
-global.namebot = 'AKIO-BOT'
-global.nameown = 'andre'
+global.nomorbot = '6288293499014'
+global.nomorown = '6288293499014'
+global.namebot = 'kzbotz'
+global.nameown = 'kz'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6281372197701', 'kz', 'true']
+  ['6288293499013', 'kz', 'true']
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
