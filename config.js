@@ -44,8 +44,8 @@ global.ppulsa2 = '088293499014'
 global.psaweria = '-'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6287776985031'
-global.nomorown = '6288293499014'
+global.nomorbot = '6283848389595'
+global.nomorown = '6282137288121'
 global.namebot = 'kzbotz'
 global.nameown = 'kz'
 
