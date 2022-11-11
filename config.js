@@ -27,7 +27,7 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
       
 
 /*============== INFO OWNER ==============*/
-global.sig = 'https://instagram.com/andre_amigos'
+global.sig = 'https://instagram.com/rhandrqz'
 global.syt = 'https://youtube.com/channel/UC28pUSJ1MyZhqGL_lamNQRw'
 global.sgh = 'https://github.com/Kzdika'
 global.sgc = 'https://chat.whatsapp.com/ECmDXCJBCFEEtr3J2RvtTg'
@@ -44,15 +44,15 @@ global.ppulsa2 = '088293499014'
 global.psaweria = '-'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6288279100127'
-global.nomorown = '6281334883572'
-global.namebot = 'AKIO-BOT'
-global.nameown = 'andre'
+global.nomorbot = '6288293499014'
+global.nomorown = '6288293499014'
+global.namebot = 'Kzbotz'
+global.nameown = 'kz'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6281334883572', 'andre', 'true']
+  ['6288293499014', 'kz', 'true']
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -102,16 +102,16 @@ global.bear = 'VBkM7rbU'
 
 
 /*============== WATERMARK ==============*/
-global.wm = 'AKIO-BOT' //Main Watermark
-global.wm2 = 'AKIO-BOT'
-global.wm3 = 'AKIO-BOT | By andre'
+global.wm = 'Kz' //Main Watermark
+global.wm2 = 'Kz'
+global.wm3 = 'Kzbotz | By kz'
 global.botdate = `⻝ 𝗗𝗮𝘁𝗲: ${week} ${date}\n⻝ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `⻝ 𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = `AKIO-BOT | ʙʏ ${global.nameown}`
-global.author = 'andre' 
-global.packname = 'AKIO-BOT'
+global.titlebot = `Kzbotz | ʙʏ ${global.nameown}`
+global.author = 'kz' 
+global.packname = 'Kzbotz'
 global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰'
-global.ultahowner = 'November 4 2022'
+global.ultahowner = 'Agustus 19 2022'
 
 
 /*============== LOGO ==============*/
