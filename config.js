@@ -44,15 +44,15 @@ global.ppulsa2 = '088293499014'
 global.psaweria = '-'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6288293499014'
-global.nomorown = '6288293499014'
-global.namebot = 'kzbotz'
-global.nameown = 'kz'
+global.nomorbot = '6288279100127'
+global.nomorown = '6281372197701'
+global.namebot = 'AKIO-BOT'
+global.nameown = 'andre'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6288293499013', 'kz', 'true']
+  ['6281372197701', 'andre', 'true']
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -102,14 +102,14 @@ global.bear = 'VBkM7rbU'
 
 
 /*============== WATERMARK ==============*/
-global.wm = 'kz' //Main Watermark
-global.wm2 = 'kz'
-global.wm3 = 'kzbotz | By kz'
+global.wm = 'AKIO-BOT' //Main Watermark
+global.wm2 = 'AKIO-BOT'
+global.wm3 = 'AKIO-BOT | By andre'
 global.botdate = `⻝ 𝗗𝗮𝘁𝗲: ${week} ${date}\n⻝ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `⻝ 𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = `Kzbotz | ʙʏ ${global.nameown}`
-global.author = 'kz' 
-global.packname = 'kz'
+global.titlebot = `AKIO-BOT | ʙʏ ${global.nameown}`
+global.author = 'andre' 
+global.packname = 'AKIO-BOT'
 global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰'
 global.ultahowner = 'November 4 2022'
 
