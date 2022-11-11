@@ -20,7 +20,7 @@ Adiwajshing
 Nurutomo
 BochilGaming`
 const templateButtons = [
-    {index: 1, urlButton: {displayText: 'Script di sini', url: 'https://wa.me/628812743180'}},
+    {index: 1, urlButton: {displayText: 'Script di sini', url: 'https://wa.me/6288293499014'}},
 ]
 let tm = {
 text: text,
