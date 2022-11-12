@@ -44,15 +44,15 @@ global.ppulsa2 = '088293499014'
 global.psaweria = '-'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6281334883572'
-global.nomorown = '6281334883572'
+global.nomorbot = '6288293499014'
+global.nomorown = '6288293499014'
 global.namebot = 'Kzbotz'
 global.nameown = 'kz'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6281334883572', 'kz', 'true']
+  ['6288293499014', 'kz', 'true']
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -111,11 +111,11 @@ global.titlebot = `Kzbotz | ʙʏ ${global.nameown}`
 global.author = 'kz' 
 global.packname = 'Kzbotz'
 global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰'
-global.ultahowner = 'Agustus 19 2022'
+global.ultahowner = 'November 4 2022'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/a5eb5169ab1330a537e0b.jpg' //Main Thumbnail
+global.thumb = 'https://telegra.ph/file/b8f841185591b29ceb84e.jpg' //Main Thumbnail
 global.imagebot = 'https://telegra.ph/file/06c4e93a3d3f388b2642d.jpg'
 global.giflogo = 'https://ibb.co/3sJ0ybv'
 global.giflogo2 = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
@@ -123,8 +123,8 @@ global.thumbs = ['https://telegra.ph/file/7db49c83fd106a60741cd.jpg']
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 global.thumbBanned = 'https://telegra.ph/file/77d11b06617f0797a45ac.jpg'
 global.thumbWarn = 'https://telegra.ph/file/77d11b06617f0797a45ac.jpg'
-global.botintro = 'Hallo, Kenalin saya AKIO-BOT Saya akan membantu Anda kapan pun & Dimana pun, Saya asisten bot WhatsApp yang di buat oleh kz Saya di rilis pada tanggal\n🗓 ️_16/10/2022_'
-global.intro = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
+global.botintro = 'Hallo, Kenalin saya Kzbotz Saya akan membantu Anda kapan pun & Dimana pun, Saya asisten bot WhatsApp yang di buat oleh kz Saya di rilis pada tanggal\n🗓 ️_16/10/2022_'
+global.intro = 'https://telegra.ph/file/93dd3203b2bc4cd262ee7.jpg'
 /*============== GLOBAL BIO ==============*/
 global.nameowner = 'kz'
 global.umurowner = '17'
