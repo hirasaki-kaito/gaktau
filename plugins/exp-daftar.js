@@ -83,7 +83,7 @@ const listMessage = {
 
 `
   let buttonMessage= {
-'document':{'url':'https://instagram.com/rhandrqz_'},
+'document':{'url':'https://youtu.be/pwLZpdfO8AU'},
 'mimetype':global.ddocx,
 'fileName':'▢━━━━「 Registration 」━━━━▢',
 'fileLength':fsizedoc,
@@ -92,13 +92,13 @@ const listMessage = {
 'forwardingScore':555,
 'isForwarded':true,
 'externalAdReply':{
-'mediaUrl':'https://instagram.com/rhandrqz_',
+'mediaUrl':'https://youtu.be/pwLZpdfO8AU',
 'mediaType':2,
 'previewType':'pdf',
 'title':global.titlebot,
 'body':global.titlebot,
 'thumbnail':await(await fetch('https://telegra.ph/file/93dd3203b2bc4cd262ee7.jpg')).buffer(),
-'sourceUrl':'https://instagram.com/rhandrqz_'}},
+'sourceUrl':'https://youtu.be/pwLZpdfO8AU'}},
 'caption':cap,
 'footer':botdate,
 'buttons':[
