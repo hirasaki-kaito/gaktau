@@ -560,7 +560,7 @@ await conn[_0x187932(0x1c2)](m[_0x187932(0x1cf)], buttonMessage, {
 	return conn.sendButton(m.chat, bottime, text, `${imgr + 'Menu'}`, [["REFERAL", _p + "ref"], ["DONASI", _p + "donasi"], ["OWNER", _p + "owner"]], m, {
         contextInfo: {
             externalAdReply: {
-                mediaUrl: "https://youtu.be/nae-aQ7I420",
+                mediaUrl: "https://instagram.com/rhandrqz_",
                 mediaType: "VIDEO",
                 title: `Hallo👋 ${name} ${ucpn}`,
                 body: `RUNTIME: ${mpt}`,
