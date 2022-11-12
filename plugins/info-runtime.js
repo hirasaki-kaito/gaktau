@@ -35,8 +35,8 @@ const time = moment.tz('Asia/Jakarta').format('HH')
                         mediaType: 2,
                         description: 'anu',
                         title: `💌 Ultah Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-                        body: `Subscribe YT My Bestie`,                                       previewType: 0,
-                        thumbnail: await (await fetch(`https://i.ibb.co/jfZVKmC/babi2.jpg`)).buffer(),
+                        body: `Follow Instagram my rhandrqz_`,                                       previewType: 0,
+                        thumbnail: await (await fetch(`https://telegra.ph/file/e11055ad8715bdd243301.jpg`)).buffer(),
                         sourceUrl: 'https://youtu.be/hklv-Ysqqac'
             }
         }
