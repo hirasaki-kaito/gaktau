@@ -592,7 +592,7 @@ function _0x1766() {
                 {
                     urlButton: {
                         displayText: `${namebot}`,
-                        url: 'https://chat.whatsapp.com/IFjWiJjVM0dHBEK6j05GEF'
+                        url: 'https://chat.whatsapp.com/ECmDXCJBCFEEtr3J2RvtTg'
                     }
                 },
                 {
