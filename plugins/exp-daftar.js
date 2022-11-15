@@ -83,7 +83,7 @@ const listMessage = {
 
 `
   let buttonMessage= {
-'document':{'url':'https://instagram.com/rhandrqz_'},
+'document':{'url':'https://youtu.be/pwLZpdfO8AU'},
 'mimetype':global.ddocx,
 'fileName':'▢━━━━「 Registration 」━━━━▢',
 'fileLength':fsizedoc,
