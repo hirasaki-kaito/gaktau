@@ -44,9 +44,9 @@ global.ppulsa2 = '088293499014'
 global.psaweria = '-'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6288293499014'
+global.nomorbot = '6287776985031'
 global.nomorown = '6288293499014'
-global.namebot = 'Kzbotz'
+global.namebot = 'Chloe MD'
 global.nameown = 'kz'
 
 
@@ -102,14 +102,14 @@ global.bear = 'VBkM7rbU'
 
 
 /*============== WATERMARK ==============*/
-global.wm = 'Kz' //Main Watermark
-global.wm2 = 'Kz'
-global.wm3 = 'Kzbotz | By kz'
+global.wm = 'Chloe' //Main Watermark
+global.wm2 = 'Chloe'
+global.wm3 = 'Chloe MD | By kz'
 global.botdate = `⻝ 𝗗𝗮𝘁𝗲: ${week} ${date}\n⻝ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `⻝ 𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = `Kzbotz | ʙʏ ${global.nameown}`
+global.titlebot = `Chloe MD | ʙʏ ${global.nameown}`
 global.author = 'kz' 
-global.packname = 'Kzbotz'
+global.packname = 'Chloe'
 global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰'
 global.ultahowner = 'November 4 2022'
 
@@ -118,7 +118,7 @@ global.ultahowner = 'November 4 2022'
 global.thumb = 'https://telegra.ph/file/b8f841185591b29ceb84e.jpg' //Main Thumbnail
 global.imagebot = 'https://telegra.ph/file/06c4e93a3d3f388b2642d.jpg'
 global.giflogo = 'https://ibb.co/3sJ0ybv'
-global.giflogo2 = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
+global.giflogo2 = 'https://telegra.ph/file/93dd3203b2bc4cd262ee7.jpg'
 global.thumbs = ['https://telegra.ph/file/7db49c83fd106a60741cd.jpg']
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 global.thumbBanned = 'https://telegra.ph/file/77d11b06617f0797a45ac.jpg'
