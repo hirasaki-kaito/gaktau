@@ -4,15 +4,15 @@ import fs from 'fs'
 let handler = async (m, { conn, command, text }) => {
   let name = await conn.getName(m.sender)
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-  let pp = await conn.profilePictureUrl(who, 'image').catch((_) => "https://telegra.ph/file/24fa902ead26340f3df2c.png")
+  let pp = await conn.profilePictureUrl(who, 'image').catch((_) => "https://telegra.ph/file/59a92c94ba0d8bc7edcc2.jpg")
 await conn.sendButton(m.chat, `Halo juga kak ${name} Ada Yang ${await conn.getName(conn.user.jid)} Bisa Bantu?\n`,wm + '\n\n' + botdate, giflogo2, [['MENU','.menu']], m, {
 contextInfo: { externalAdReply :{
                         mediaUrl: 'https://tiktok.com/@raraharsita2',
                         mediaType: 2,
                         description: 'anu',
                         title: global.titlebot,
-                        body: '⚘ ᴄʀᴇᴀᴛᴇ ʙʏ andre',          previewType: 0,
-                        thumbnail: await (await fetch(pp)).buffer(),
+                        body: '⚘ ᴄʀᴇᴀᴛᴇ ʙʏ kz',          previewType: 0,
+                        thumbnail: 'https://telegra.ph/file/59a92c94ba0d8bc7edcc2.jpg'
                         sourceUrl: 'https://youtu.be/pwLZpdfO8AU'
                       }}
 })
