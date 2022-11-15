@@ -4,10 +4,9 @@ let text = `*SYARAT & KETENTUAN*
     
 
 📮 S&K
-1. Jangan diperjual belikan Script ini
-2. Jangan salah gunakan script ini!
-3. Jangan lupa Subscribe Youtube
-4. Jangan di per jual belikan
+1. Buy bg mumer kok pm owner aja😅
+2. Jangan lupa follow instagram
+3. Jangan salah gunakan script ini
 • Jika ada eror di sc hub https://wa.me/6288293499014
 
 --------Thanks to ✨---------
