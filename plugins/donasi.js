@@ -8,7 +8,7 @@ let handler = async (m, { conn, text, usedPrefix }) => {
             externalAdReply: {
                 mediaUrl: "https://instagram.com/rhandrqz_",
                 mediaType: "VIDEO",
-                title: 'Donasi To Kzbotz ',
+                title: 'Donasi To Chloe MD ',
                 body: bottime,
                 previewType: 0,
                 thumbnail: img
