@@ -45,7 +45,7 @@ import moment from 'moment-timezone'
                    "title": "────────「 Trial 」" 
                  }, { 
                      "rows": [{ 
-                       "title": `Permanent! Rp50.000`, 
+                       "title": `Permanent! Rp30.000`, 
                        "description": "Masukkan bot ke dalam group tanpa batasann waktu!", 
                        "rowId": ".masuk"
                    }], 
