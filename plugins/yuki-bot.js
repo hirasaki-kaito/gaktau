@@ -12,7 +12,7 @@ contextInfo: { externalAdReply :{
                         description: 'anu',
                         title: global.titlebot,
                         body: '⚘ ᴄʀᴇᴀᴛᴇ ʙʏ kz',          previewType: 0,
-                        thumbnail: 'https://telegra.ph/file/59a92c94ba0d8bc7edcc2.jpg'
+                        thumbnail: await (await fetch(pp)).buffer(),
                         sourceUrl: 'https://youtu.be/pwLZpdfO8AU'
                       }}
 })
