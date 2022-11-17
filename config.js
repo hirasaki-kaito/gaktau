@@ -107,7 +107,7 @@ global.wm2 = 'Xiel'
 global.wm3 = 'Xiel MD | By Zaki'
 global.botdate = `⻝ 𝗗𝗮𝘁𝗲: ${week} ${date}\n⻝ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `⻝ 𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = `Chloe MD | ʙʏ ${global.nameown}`
+global.titlebot = `Xiel MD | ʙʏ ${global.nameown}`
 global.author = 'Zaki' 
 global.packname = 'Xiel'
 global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰'
@@ -115,11 +115,11 @@ global.ultahowner = 'Maret 3 2023'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/b8f841185591b29ceb84e.jpg' //Main Thumbnail
+global.thumb = 'https://telegra.ph/file/4baf46eff852d52fb3beb.jpg' //Main Thumbnail
 global.imagebot = 'https://telegra.ph/file/4baf46eff852d52fb3beb.jpg'
 global.giflogo = 'https://ibb.co/3sJ0ybv'
-global.giflogo2 = 'https://telegra.ph/file/93dd3203b2bc4cd262ee7.jpg'
-global.thumbs = ['https://telegra.ph/file/7db49c83fd106a60741cd.jpg']
+global.giflogo2 = 'https://telegra.ph/file/4baf46eff852d52fb3beb.jpg'
+global.thumbs = ['https://telegra.ph/file/4baf46eff852d52fb3beb.jpg']
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 global.thumbBanned = 'https://telegra.ph/file/77d11b06617f0797a45ac.jpg'
 global.thumbWarn = 'https://telegra.ph/file/77d11b06617f0797a45ac.jpg'
