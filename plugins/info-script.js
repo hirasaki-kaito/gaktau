@@ -7,7 +7,7 @@ let text = `*SYARAT & KETENTUAN*
 1. Buy bg mumer kok pm owner aja😅
 2. Jangan lupa follow instagram
 3. Jangan salah gunakan script ini
-• Jika ada eror di sc hub https://wa.me/6288293499014
+• Jika ada eror di sc hub https://wa.me/6281553838607
 
 --------Thanks to ✨---------
 Allah SWT
@@ -19,7 +19,7 @@ Adiwajshing
 Nurutomo
 BochilGaming`
 const templateButtons = [
-    {index: 1, urlButton: {displayText: 'Script di sini', url: 'https://wa.me/6288293499014'}},
+    {index: 1, urlButton: {displayText: 'Script di sini', url: 'https://wa.me/6281553838607'}},
 ]
 let tm = {
 text: text,

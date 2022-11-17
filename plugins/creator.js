@@ -11,7 +11,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 ------- ${nameown} -------
 
 📮 *Note:*
-• Owner tidak menerima save contact
+• Owner menerima save contacts
 • Owner berhak blockir tanpa alasan
 • Berbicaralah yang sopan & tidak spam
 • Owner Hanya merespon yang berkaitan dengan BOT
@@ -20,17 +20,17 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-${htjava} *💌 Nama* : Kz
-${htjava} *✉️ Nama RL* : Rehan
+${htjava} *💌 Nama* : Ryuzaki
+${htjava} *✉️ Nama RL* : Ridho
 ${htjava} *♂️ Gender* : Boys
 ${htjava} *🕋 Agama* : Islam
 ${htjava} *⏰ Tanggal lahir* : Private🥶
 ${htjava} *🎨 Umur* : 17
-${htjava} *🧮 Kelas* : Private
+${htjava} *🧮 Kelas* : 11
 ${htjava} *🧩 Hobby* : Modifikasi WhatsApp
 ${htjava} *💬 Sifat* : Asik dah kalau udh kenal
-${htjava} *🗺️ Tinggal* : Jawa barat, Bogor
-${htjava} *❤️ Waifu* : Ninym
+${htjava} *🗺️ Tinggal* : Jawa Timur, Mojokerto
+${htjava} *❤️ Waifu* : -
 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 •·––––––––––––––––––––––––––·•
