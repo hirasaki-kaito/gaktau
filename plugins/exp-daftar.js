@@ -50,7 +50,7 @@ let handler = async function (m, { text, usedPrefix, command }) {
 
 const listMessage = {
   text: `│›Please select your age at the bottom button...`,
-  footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\n<❔>  BOT PRIVATE\n⚘ ᴄʀᴇᴀᴛᴇ ʙʏ kz`,
+  footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\n<❔>  BOT PRIVATE\n⚘ ᴄʀᴇᴀᴛᴇ ʙʏ Ryuzaki`,
   title: "▢━━━━「 Registration 」━━━━▢",
   buttonText: "ഒ Register ഒ",
   sections
@@ -97,7 +97,7 @@ const listMessage = {
 'previewType':'pdf',
 'title':global.titlebot,
 'body':global.titlebot,
-'thumbnail':await(await fetch('https://telegra.ph/file/93dd3203b2bc4cd262ee7.jpg')).buffer(),
+'thumbnail':await(await fetch('https://telegra.ph/file/4baf46eff852d52fb3beb.jpg')).buffer(),
 'sourceUrl':'_'}},
 'caption':cap,
 'footer':botdate,

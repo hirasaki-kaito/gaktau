@@ -201,11 +201,11 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
    {
 	title: `${htki} ▮𝗦𝘁𝗮𝘁𝘂𝘀 」 ${htka}`,
 	rows: [
-	    {title: `📛)ഒ Info Bot`, rowId: ".botinfo", description: "✧ Info nya Chloe MD ><"},
+	    {title: `📛)ഒ Info Bot`, rowId: ".botinfo", description: "✧ Info nya Xiel MD ><"},
 	    {title: `💌)ഒ Owner`, rowId: ".owner", description: "✧ Ini Room Developer ku ^~^"},
             {title: `🗣)ഒ Request Fitur`, rowId: ".request", description: "✧ Request Fitur menarik ke BOT"},
             {title: `📊)ഒ Test Speed`, rowId: ".testspeed", description: "✧ Test Install Speed BOT"},
-	{title: `⚡)ഒ Speed`, rowId: ".speed", description: "✧ Kecepatan Respon 赤 Chloe MD..."},
+	{title: `⚡)ഒ Speed`, rowId: ".speed", description: "✧ Kecepatan Respon 赤 Xiel MD..."},
 	]
     },{
 	title: `${htki} ▮𝗖𝗮𝘁𝗲𝗴𝗼𝗿𝘆 」 ${htka}`,
@@ -240,7 +240,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	{title: `⫹🎵 › 𐐪-〚 Audio 〛-𐑂`, rowId: ".? audio", description: "╰► Calon remixer nih haha ></"},
         {title: `⫹🎶 › 𐐪-〚 Sound 〛-𐑂`, rowId: ".soundmenu", description: "╰► dengerin lagu nih haha ></"},
 	{title: `⫹🎦 › 𐐪-〚 Preset AM 〛-𐑂`, rowId: ".presetmenu", description: "╰► Mau Ngedit Ya ></"},
-	{title: `⫹🦄 › 𐐪-〚 Group 〛-𐑂`, rowId: ".? group", description: "╰► Menu settingan buat group mu kak -𐑂"},
+	{title: `⫹🦄 › 𐐪-〚 Group 〛-𐑂`, rowId: ".? group", description: "╰► Menu settingan buat group mu kak -??"},
 	{title: `⫹👑 › 𐐪-〚 Admin 〛-𐑂`, rowId: ".? admin", description: "╰► Yg bukan admin jangan make fitur ini >-<"},
 	{title: `⫹🗃️️ › 𐐪-〚 Database 〛-𐑂`, rowId: ".? database", description: "╰► Simpen apa tuh.... >.<"},
 	{title: `⫹🧰️ › 𐐪-〚 Tools 〛-𐑂`, rowId: ".? tools", description: "╰► Butuh apa aja bot akan bantu -𐑂"},
@@ -272,7 +272,7 @@ let usrs = db.data.users[m.sender]
     let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
  
 let tek = `
-  「 Chloe MD 」
+  「 XIEL MD 」
 
  ╭──〔  𝐈𝐍𝐅𝐎 𝐔𝐒𝐄𝐑  〕─⬣ 
  │⬡ User :  *${await conn.getName(m.sender)}*
@@ -294,7 +294,7 @@ let tek = `
 `
 const listMessage = {
   text: tek,
-  footer: '© Chloe | ALL RESERVED',
+  footer: '© XIEL | ALL RESERVED',
   mentions: await conn.parseMention(tek),
   title: ``,
   buttonText: `LIST MENU`,
