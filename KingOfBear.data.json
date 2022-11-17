@@ -97,7 +97,7 @@
     "lastAccountSyncTimestamp": 1668447538,
     "myAppStateKeyId": "AAAAAMZV"
   },
-  "keys": {
+  "keys": { 
     "preKeys": {
       "1": {
         "private": {
