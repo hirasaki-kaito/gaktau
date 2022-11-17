@@ -27,32 +27,32 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
       
 
 /*============== INFO OWNER ==============*/
-global.sig = 'https://instagram.com/rhandrqz'
+global.sig = 'https://instagram.com/nvmzzzz_'
 global.syt = 'https://youtube.com/channel/UC28pUSJ1MyZhqGL_lamNQRw'
-global.sgh = 'https://github.com/Kzdika'
+global.sgh = 'https://github.com/Ryuzakidika'
 global.sgc = 'https://chat.whatsapp.com/ECmDXCJBCFEEtr3J2RvtTg'
-global.swa = 'wa.me/6288293499014'
+global.swa = 'wa.me/6281553838607'
 global.swb = 'https://discord.gg/4HvezMAw'
 global.snh = 'https://nhentai.net/g/365296/' //Make ini aja gausah di ganti.
 
 /*============== PAYMENT ==============*/
-global.pdana = '088293499014'
+global.pdana = '081553838607'
 global.povo = '-'
 global.pgopay = '-'
-global.ppulsa = '087776985031'
-global.ppulsa2 = '088293499014'
+global.ppulsa = '081553838607'
+global.ppulsa2 = '081553838607'
 global.psaweria = '-'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6287776985031'
-global.nomorown = '6288293499014'
-global.namebot = 'Chloe MD'
-global.nameown = 'kz'
+global.nomorbot = '6287723753404'
+global.nomorown = '6281553838607'
+global.namebot = 'Xiel MD'
+global.nameown = 'Ryuzaki'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6288293499014', 'kz', 'true']
+  ['6281553838607', 'Ryuzaki', 'true']
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -102,35 +102,35 @@ global.bear = 'VBkM7rbU'
 
 
 /*============== WATERMARK ==============*/
-global.wm = 'Chloe' //Main Watermark
-global.wm2 = 'Chloe'
-global.wm3 = 'Chloe MD | By kz'
+global.wm = 'Xiel' //Main Watermark
+global.wm2 = 'Xiel'
+global.wm3 = 'Xiel MD | By Zaki'
 global.botdate = `⻝ 𝗗𝗮𝘁𝗲: ${week} ${date}\n⻝ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `⻝ 𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
 global.titlebot = `Chloe MD | ʙʏ ${global.nameown}`
-global.author = 'kz' 
-global.packname = 'Chloe'
+global.author = 'Zaki' 
+global.packname = 'Xiel'
 global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰'
-global.ultahowner = 'November 4 2022'
+global.ultahowner = 'Maret 3 2023'
 
 
 /*============== LOGO ==============*/
 global.thumb = 'https://telegra.ph/file/b8f841185591b29ceb84e.jpg' //Main Thumbnail
-global.imagebot = 'https://telegra.ph/file/06c4e93a3d3f388b2642d.jpg'
+global.imagebot = 'https://telegra.ph/file/4baf46eff852d52fb3beb.jpg'
 global.giflogo = 'https://ibb.co/3sJ0ybv'
 global.giflogo2 = 'https://telegra.ph/file/93dd3203b2bc4cd262ee7.jpg'
 global.thumbs = ['https://telegra.ph/file/7db49c83fd106a60741cd.jpg']
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 global.thumbBanned = 'https://telegra.ph/file/77d11b06617f0797a45ac.jpg'
 global.thumbWarn = 'https://telegra.ph/file/77d11b06617f0797a45ac.jpg'
-global.botintro = 'Hallo, Kenalin saya Kzbotz Saya akan membantu Anda kapan pun & Dimana pun, Saya asisten bot WhatsApp yang di buat oleh kz Saya di rilis pada tanggal\n🗓 ️_16/10/2022_'
+global.botintro = 'Hallo, Kenalin saya Xiel-MD Saya akan membantu Anda kapan pun & Dimana pun, Saya asisten bot WhatsApp yang di buat oleh Ryuzaki Saya di rilis pada tanggal\n🗓 ️_3/11/2022_'
 global.intro = 'https://telegra.ph/file/93dd3203b2bc4cd262ee7.jpg'
 /*============== GLOBAL BIO ==============*/
-global.nameowner = 'kz'
+global.nameowner = 'Ryuzaki'
 global.umurowner = '17'
-global.asalowner = 'Jawa Barat, Bogor'
-global.nomorowner = 'wa.me/6288293499014'
-global.pacarowner = 'raphtalia'
+global.asalowner = 'Jawa Timur, Mojokerto'
+global.nomorowner = 'wa.me/6281553838607'
+global.pacarowner = '-'
 
 /*============== TEXT ==============*/
 global.wait = '```𝙇𝙤𝙖𝙙𝙞𝙣𝙜...```'
@@ -146,7 +146,7 @@ global.drtf = 'text/rtf'
 global.thumbdoc = 'https://telegra.ph/file/a5eb5169ab1330a537e0b.jpg'
 
 /*=========== FAKE SIZE ===========*/
-global.fsizedoc = '99999999999999' // default 10TB
+global.fsizedoc = '99999999' // default 10TB
 global.fpagedoc = '999'
 
 /*=========== HIASAN ===========*/
