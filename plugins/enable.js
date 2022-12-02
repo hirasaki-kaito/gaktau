@@ -74,6 +74,14 @@ const listMessage = {
       }
       bot.freply = isEnable
       break
+     case 'autobio':
+      isAll = true
+      if (!isOwner) {
+        global.dfail('owner', m, conn)
+        throw false
+      }
+      bot.freply = isEnable
+      break
     case 'welcome':
       if (!m.isGroup) {
         if (!isOwner) {
