@@ -29,6 +29,7 @@
 	{title: "🌟 | AutoUpmine", rowId: `${usedPrefix + command} autoupmine`},
 	{title: "🌟 | Autojoin", rowId: `${usedPrefix + command} autojoin`},
 	{title: "🌟 | Autoupnews", rowId: `${usedPrefix + command} autoupnews`},
+	{title: "🌟 | Autobio", rowId: `${usedPrefix + command} autobio`},
 	{title: "🎵 | AutoVn", rowId: `${usedPrefix + command} autovn`},
 	{title: "⏏️ | Autolevelup", rowId: `${usedPrefix + command} autolevelup`},
 	{title: "🌟 | bcjoin", rowId: `${usedPrefix + command} bcjoin`},
